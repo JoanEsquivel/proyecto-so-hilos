@@ -40,6 +40,8 @@ namespace proyecto_so_hilos
         //Funciones para calcular pares
         void Pares()
         {
+            // Instrucción:"DataGrid de Números Pares: Al finalizar la ejecución del Hilo, que procesa los números pares,
+            // deberá desplegar la lista de la elevación al cuadrado, de los números pares, de la lista indicada.
             int Indice_Par = 0;
             // Itera sobre el array
             for (int i = 0; i < Array_Number.Length; i++)
