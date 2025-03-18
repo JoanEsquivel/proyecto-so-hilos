@@ -18,6 +18,11 @@ namespace proyecto_so_hilos
             InitializeComponent();
         }
 
+        // Variables generales
+        // Sirve de variable de apoyo
+        public double Numero;
+        // Clase utilizada para mostrar modales por medio de message box
+        Cla_Utilidad Obj_Utilidad = new Cla_Utilidad();
 
         // Variables para calcular potencia
         public double[] Array_Number = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
@@ -28,8 +33,6 @@ namespace proyecto_so_hilos
         // Posibles variables a usar para el resto del trabajo basado en el video. En caso de no usarlas, por favor eliminarlas.
         public string[] Array_Impar;
         public string[] Array_Tabla = new string[10];
-        public double Numero;
-        Cla_Utilidad Obj_Utilidad = new Cla_Utilidad();
         Thread Obj_T2; 
         Mutex Obj_Mut = new Mutex();
         DataTable DT_Numeros = new DataTable();

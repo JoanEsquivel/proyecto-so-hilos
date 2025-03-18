@@ -35,9 +35,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tbTipo = new System.Windows.Forms.TextBox();
             this.Dgv_Pares = new System.Windows.Forms.DataGridView();
+            this.colPotencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.btnEjecutar = new System.Windows.Forms.Button();
-            this.colPotencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_Pares)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,31 +95,12 @@
             this.Dgv_Pares.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dgv_Pares.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colPotencia});
-            this.Dgv_Pares.Location = new System.Drawing.Point(560, 252);
+            this.Dgv_Pares.Location = new System.Drawing.Point(560, 186);
             this.Dgv_Pares.Name = "Dgv_Pares";
             this.Dgv_Pares.RowHeadersWidth = 51;
             this.Dgv_Pares.RowTemplate.Height = 24;
-            this.Dgv_Pares.Size = new System.Drawing.Size(183, 150);
+            this.Dgv_Pares.Size = new System.Drawing.Size(183, 358);
             this.Dgv_Pares.TabIndex = 8;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(557, 206);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(172, 16);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Potencia de números pares";
-            // 
-            // btnEjecutar
-            // 
-            this.btnEjecutar.Location = new System.Drawing.Point(560, 459);
-            this.btnEjecutar.Name = "btnEjecutar";
-            this.btnEjecutar.Size = new System.Drawing.Size(75, 23);
-            this.btnEjecutar.TabIndex = 10;
-            this.btnEjecutar.Text = "Ejecutar";
-            this.btnEjecutar.UseVisualStyleBackColor = true;
-            this.btnEjecutar.Click += new System.EventHandler(this.btnEjecutar_Click);
             // 
             // colPotencia
             // 
@@ -128,6 +109,25 @@
             this.colPotencia.MinimumWidth = 6;
             this.colPotencia.Name = "colPotencia";
             this.colPotencia.Width = 125;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(557, 149);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(172, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Potencia de números pares";
+            // 
+            // btnEjecutar
+            // 
+            this.btnEjecutar.Location = new System.Drawing.Point(560, 566);
+            this.btnEjecutar.Name = "btnEjecutar";
+            this.btnEjecutar.Size = new System.Drawing.Size(75, 23);
+            this.btnEjecutar.TabIndex = 10;
+            this.btnEjecutar.Text = "Ejecutar";
+            this.btnEjecutar.UseVisualStyleBackColor = true;
+            this.btnEjecutar.Click += new System.EventHandler(this.btnEjecutar_Click);
             // 
             // Form1
             // 
